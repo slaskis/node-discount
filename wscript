@@ -20,4 +20,4 @@ def build(bld):
   obj.target = 'markdown'
   obj.source = 'src/markdown.cc'
   obj.uselib = 'DISCOUNT'
-  obj.cxxflags = ["-fPIC"]
+  obj.cxxflags = ["-fPIC","-I/opt/local/include"]
